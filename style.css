@@ -1,13 +1,33 @@
 #header{
 	
-	text-align: center;
-	height:30px;
-	margin:auto;
-	padding: 20px;
+	height:100px;
+	background-color:purple;
 	
 	}
-#bio{
-float:left;
-	width:50%;
-	margin: 30px;
+#header img{
+height:100px;
+display: inline;
+text-align:center;
+}
+.odd_section{
+	
+	background-color:teal;
+	border: 1px solid black;
+	text-align: center;
+	padding: 30px;
+	
 	}
+.section{
+		background-color:red;
+		text-align: center;
+		padding: 30px;
+	}
+.half{
+	display:inline-block;
+	width:49%;
+	
+
+}
+
+	
+
