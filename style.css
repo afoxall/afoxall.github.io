@@ -1,21 +1,34 @@
 #header{
 	
-	height:100px;
+
 	background-color:purple;
 	
 	}
-#header img{
+#pageTitle{
+display:inline-block;
+min-width:25%;
+border:2px solid yellow;	
+
+}
+#footer img{
 height:100px;
 display: inline;
 text-align:center;
 }
+
+.tab{
+	min-width:10%;
+	max-width:15%;
+	display:inline-block;
+	border: 2px solid pink;
+	text-align:center;
+	}
+
 .odd_section{
 	
 	background-color:teal;
 	border: 1px solid black;
 	text-align: center;
-	padding: 30px;
-	
 	}
 .section{
 		background-color:red;
@@ -23,11 +36,26 @@ text-align:center;
 		padding: 30px;
 	}
 .half{
-	display:inline-block;
 	width:49%;
-	
-
+	display:inline-block;
 }
-
+.third{
+	display:inline-block;
+	width: 30%;
+	height:250px;
+	border:1px solid black;
+	vertical-align:middle;
+	
+	}
+.third:nth-child(odd){
+	background-color:pink;
+	}
+.third img{
+ width:50%;
+ }
+ .third a{
+	text-decoration:none;
+	display:block;
+	}
 	
 
