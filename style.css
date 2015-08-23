@@ -20,6 +20,9 @@ body{
 body a:visited{
 	color:black;
 }
+body a:link{
+	color:black;
+}
 body a:hover{
 	text-decoration:underline;
 }
