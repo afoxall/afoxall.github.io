@@ -1,4 +1,4 @@
-@media screen and (min-width:801px){
+@media all and (min-width:1001px){
 	
 	.half{
 	width:49%;
@@ -8,24 +8,29 @@
 	.third{
 	width: 30%;
 	}
+	.third div{
+		height:170px;
+		width:100%;
+		position:relative;
+}
 	#footer div{
 		height:5em;
 	}
 	.section h3{	
+		width:400px;
+		display:inline-block;
+		padding-left:15%;
 
-width:400px;
-display:inline-block;
-
-}
-.section h5{
-	display:inline-block;
-	width:150px;
-	float:right;
+	}
+	.section h5{
+		display:inline-block;
+		width:150px;
+		float:right;
 	
 }
 }
 
-@media screen and (max-width:800px){
+@media all and (max-width:1000px){
 	.half{
 		width:85%;
 		display:inline-block;
@@ -35,33 +40,26 @@ display:inline-block;
 		
 		width: 85%;
 	}
+	.third div{
+		height:110px;
+		width:100%;
+		position:relative;
+}
 	
 	.section{
 		width:95%;
-	}
-	.section {
 		font-size:20px;
 	}
-	h1{
-		font-size:1.5em;
-	}
-	#footer div{
-		height:3em;
-	}
-	.section h3{	
-
-		width:400px;
-		display:inline-block;
-
-}
-.section h5{
-	display:inline-block;
-	width:100px;
-	float:right;
 	
+	
+	#footer div{
+		height:4em;
+	}
+	
+	.section h5{
+		font-size:0.7em;
 }
 }
-
 
 #header {
 	
@@ -72,7 +70,6 @@ display:inline-block;
 	margin-left:20px;
 	margin-right:20px;
 	max-width:100px;
-	
 }
 #header a:link{
 	text-decoration:none;
@@ -83,6 +80,9 @@ display:inline-block;
 body{
 	background-color:#E0CCF5;
 	font-family:Rockwell;
+}
+h4 {
+    font-size: 0.8em;
 }
 
 body a:link{
@@ -100,17 +100,15 @@ h1{
 }
 
 #pageTitle{
-display:inline-block;
-width:28%;
-margin-left:5%;
-font-weight: bold;
+	display:inline-block;
+	width:25%;
+	margin-left:6%;
+	font-weight: bold;
 }
-
 
 #footer{
 	margin:0 auto;
 	text-align:center;
-	
 }
 
 #footer img{
@@ -119,15 +117,13 @@ margin-left:5px;
 height:100%;
 display: inline;
 text-align:center;
-
-
 }
+
 #footer div{
-	max-width:85%;
+	width:85%;
 	margin: 0 auto;
 	overflow:hidden;
 	display:inline-block;
-	
 }
 
 .tab{
@@ -141,16 +137,14 @@ text-align:center;
 	}
 
 .section{
-		background-color:white;
-		text-align: center;
-		padding: 10px 30px 30px 30px;
-		width:85%;
-		margin: 0 auto;
-		border: 5px solid #E0CCF5;
-		border-radius:10px;
-		
+	background-color:white;
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+	width:85%;
+	margin: 0 auto;
+	border: 5px solid #E0CCF5;
+	border-radius:10px;
 	}
-
 
 .half div{
 	min-height:220px;
@@ -167,26 +161,15 @@ text-align:center;
 	vertical-align:middle;
 	margin:10px;
 	background-color:white;
-	
-
-	
 	}
 .third img{
 	max-height:125px;
 	max-width:	100%;
-	
-
-
  }
-.third div{
-	height:170px;
-	width:100%;
-	position:relative;
-}
+
 .third div p{
 	position:absolute;
-	top: 50%;
-	transform: translateY(-60%);
+	
 }
 .third a{
 	text-decoration:none;
