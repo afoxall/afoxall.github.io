@@ -76,6 +76,7 @@
 }
 #header a:hover{
 	text-decoration:underline;
+	color:black;
 }
 body{
 	background-color:#E0CCF5;
@@ -87,10 +88,12 @@ h4 {
 
 body a:link{
 	text-decoration:none;
+	color:black;
 	
 }
 body a:hover{
 	text-decoration:underline;
+	color:black;
 }
 body a:visited{
 	color:black;
