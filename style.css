@@ -1,0 +1,184 @@
+@media all and (min-width:1001px){
+	
+	.half{
+	width:49%;
+	display:inline-block;
+	vertical-align:middle;
+	}
+	.third{
+	width: 30%;
+	}
+	.third div{
+		height:170px;
+		width:100%;
+		position:relative;
+}
+	#footer div{
+		height:5em;
+	}
+	.section h3{	
+		width:400px;
+		display:inline-block;
+		padding-left:15%;
+
+	}
+	.section h5{
+		display:inline-block;
+		width:150px;
+		float:right;
+	
+}
+}
+
+@media all and (max-width:1000px){
+	.half{
+		width:85%;
+		display:inline-block;
+		vertical-align:middle;
+	}
+	.third{
+		
+		width: 85%;
+	}
+	.third div{
+		height:110px;
+		width:100%;
+		position:relative;
+}
+	
+	.section{
+		width:95%;
+		font-size:20px;
+	}
+	
+	
+	#footer div{
+		height:4em;
+	}
+	
+	.section h5{
+		font-size:0.7em;
+}
+}
+
+#header {
+	
+	width:90%
+}
+#header img{
+	margin-bottom:-10px;
+	margin-left:20px;
+	margin-right:20px;
+	max-width:100px;
+}
+#header a:link{
+	text-decoration:none;
+}
+#header a:hover{
+	text-decoration:underline;
+	color:black;
+}
+body{
+	background-color:#E0CCF5;
+	font-family:Rockwell;
+}
+h4 {
+    font-size: 0.8em;
+}
+
+body a:link{
+	text-decoration:none;
+	color:black;
+	
+}
+body a:hover{
+	text-decoration:underline;
+	color:black;
+}
+body a:visited{
+	color:black;
+}
+h1{
+	text-decoration:none;
+}
+
+#pageTitle{
+	display:inline-block;
+	width:25%;
+	margin-left:6%;
+	font-weight: bold;
+}
+
+#footer{
+	margin:0 auto;
+	text-align:center;
+}
+
+#footer img{
+margin-top:10px;
+margin-left:5px;
+height:100%;
+display: inline;
+text-align:center;
+}
+
+#footer div{
+	width:85%;
+	margin: 0 auto;
+	overflow:hidden;
+	display:inline-block;
+}
+
+.tab{
+	width:10%;
+	display:inline-block;
+	background-color: #E0CCF5; 
+	text-align:center;
+	height:30px;
+	border-radius:7px;
+	font-weight:bold;
+	}
+
+.section{
+	background-color:white;
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+	width:85%;
+	margin: 0 auto;
+	border: 5px solid #E0CCF5;
+	border-radius:10px;
+	}
+
+.half div{
+	min-height:220px;
+}
+
+.half img{
+	height:220px;
+	padding-top:15px;
+}
+
+.third{
+	display:inline-block;
+	min-height:250px;
+	vertical-align:middle;
+	margin:10px;
+	background-color:white;
+	}
+.third img{
+	max-height:125px;
+	max-width:	100%;
+ }
+
+.third div p{
+	position:absolute;
+	
+}
+.third a{
+	text-decoration:none;
+	display:block;
+	font-weight: bold;
+}
+	
+
+
