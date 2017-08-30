@@ -179,6 +179,16 @@ text-align:center;
 	display:block;
 	font-weight: bold;
 }
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav h1{
+	display: inline;
+	color:blue;
+}
 	
 
 
