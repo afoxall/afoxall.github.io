@@ -767,11 +767,11 @@ blockquote {
   width: 100%; }
 
 .page-heading {
-  padding-bottom: 3rem; }
+  padding-bottom: 1rem; }
   .page-heading .page-title {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.1;
     text-align: center;
     color: #ffffff; }
