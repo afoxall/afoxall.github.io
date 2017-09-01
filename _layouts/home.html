@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="page-heading">
+    <h2 class="page-title">About me</h2>
+  </div>
+  <div class="about">
+    <div class="container-face">
+      <img class="face" src="{{site.baseurl}}/assets/img/{% if site.pic %}{{ site.pic }}{% else %}github.jpg{% endif %}" alt="">
+    </div>
+    <h2 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}TAGLINE{% endif %}</h2>
+    <div class="about-description">				
+				<p>I'm a fourth year Computer Engineering student at Queen's University graduating in Spring 2018. I have completed three software development internships and am currently looking for a full-time position as a software developer.</p>
+				
+				<p>My experience covers mobile and back-end development, operations, control systems and robotics and I am comfortable in C#, Java, C/C++ and Python. If you hadn't guessed from this less-than-stunning website, I'm no UI guru. However, I love to learn and try new things so I'm looking for a position that allows me to do that. Explore my website to learn more!
+    </div>
+    <div class="contact-contaiver">
+      <ul class="contact-list">
+
+        {% if site.email %}
+          <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i> {{site.email}}</a></li>
+        {% endif %}
+		
+        {% if site.phone %}
+          <li class="phone"><a href="tel:{{site.phone}}"><i class="fa fa-phone"></i> {{site.phone}}</a></li>
+        {% endif %}
+
+
+        {% if site.linkedin %}
+          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i> linkedin.com/in/{{site.linkedin}}</a></li>
+
+        {% endif %}
+
+        {% if site.github %}
+          <li class="github"><a href="http://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i> github.com/{{site.github}}</a></li>
+        {% endif %}
+		{% if site.resume %}
+          <li class="file"><a href="{{site.baseurl}}/{{site.resume}}" target="_blank"><i class="fa fa-file-text"></i> resume</a></li>
+        {% endif %}
+
+      </ul>
+    </div>
+  </div>
+</div>
