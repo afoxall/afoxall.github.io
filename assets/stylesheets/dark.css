@@ -922,3 +922,10 @@ blockquote {
 
   .contact-list li a {
     font-size: 0.7rem; } }
+	
+.arrow-button {
+	background-color: Transparent;
+	border:none;
+	outline:none;
+	color:silver;
+}
